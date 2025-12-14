@@ -175,6 +175,20 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
+.game-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(110vh - 100px);
+}
+
+.chosen-game{
+    width: 80%;
+    height: 500px;
+    background-color: #1a1a1a;
+    border: 2px solid #7f8c8d;
+    border-radius: 10px;
+}
 
 @media (max-width: 768px) {
     .smokelessless-header {
