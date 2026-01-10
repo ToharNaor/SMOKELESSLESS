@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smokelessless Snake 🐍</title>
+    <link rel="stylesheet" href="/games/snake-online/styles.css" />
+    <!-- Socket.io Client Library -->
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+  </head>
+  <body>
+    <h1>SMOKELESSLESS SNAKE</h1>
+
+    <div id="game-container">
+      <canvas id="snakeCanvas" width="800" height="600"></canvas>
+      <div class="scanlines"></div>
+      <div id="game-overlay" class="hidden">
+        <h2 id="overlay-title">GAME OVER</h2>
+        <p id="overlay-score">Score: 0</p>
+        <p class="blink">Press Any Key to Restart</p>
+      </div>
+    </div>
+
+    <div id="status">Connecting to server...</div>
+
+    <a href="/" class="back-button">← Back to Menu</a>
+
+    <script src="/games/snake-online/game.js"></script>
+  </body>
+</html>

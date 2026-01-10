@@ -3,22 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smokelessless Pong 🏓</title>
-    <link rel="stylesheet" href="/games/pong-online/styles.css" />
+    <title>Smokelessless Flappy 🐦</title>
+    <link rel="stylesheet" href="/games/flappy-online/styles.css" />
     <!-- Socket.io Client Library -->
     <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
   </head>
   <body>
-    <h1>SMOKELESSLESS PONG</h1>
+    <h1>SMOKELESSLESS FLAPPY</h1>
 
     <div id="game-container">
-      <canvas id="pongCanvas" width="800" height="600"></canvas>
+      <canvas id="flappyCanvas" width="800" height="600"></canvas>
       <div class="scanlines"></div>
+
+      <div id="game-overlay" class="">
+        <h2 id="overlay-title">PRESS SPACE</h2>
+        <p id="overlay-score">Score: 0</p>
+        <p class="blink">Jump to Start</p>
+      </div>
     </div>
 
     <div id="status">Connecting to server...</div>
 
     <a href="/" class="back-button">← Back to Menu</a>
-    <script src="/games/pong-online/game.js"></script>
+
+    <script src="/games/flappy-online/game.js"></script>
   </body>
 </html>

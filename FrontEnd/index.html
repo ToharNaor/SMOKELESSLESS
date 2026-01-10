@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>SMOKELESSLESS</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="smokelessless-header">
-        <h1>SMOKELESSLESS</h1>
-        <nav class="navbar">
-            <div class="nav-links">
-                <a href="index.html" class="nav-link active">Home</a>
-                <a href="games.html" class="nav-link">Games</a>
-            </div>
-        </nav>
+      <h1>SMOKELESSLESS</h1>
+      <nav class="navbar">
+        <div class="nav-links">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="games.html" class="nav-link">Games</a>
+        </div>
+      </nav>
     </header>
 
     <div class="content">
-        <div class="description">
-            <h2>Welcome to Smokelessless!</h2>
-            <p>Play games that run smoothly on any computer</p>
+      <div class="description">
+        <h2>Welcome to Smokelessless!</h2>
+        <p>Play games that run smoothly on any computer</p>
+      </div>
+      <div class="game-cards">
+        <!-- PONG CARD -->
+        <div class="card">
+          <div class="game-img">
+            <!-- Placeholder image for Pong -->
+            <img
+              id="img"
+              src="https://media.istockphoto.com/id/1136155337/vector/retro-pong-game-vector-illustration.jpg?s=612x612&w=0&k=20&c=L_YtQfQJ9WDYl6tYF1wV0qQyXj0KgA_3jQ_ZgQ5_X4="
+              alt="Pong"
+            />
+          </div>
+          <div class="game-info">
+            <h2 class="game-title">PONG ONLINE</h2>
+            <p class="game-description">
+              Classic 1v1 Physics Battle. Neon Vibes. 🏓
+            </p>
+            <a href="/games/pong" class="play-button">Play Now</a>
+          </div>
         </div>
-        <div class="game-cards">
-            <div class="card">
-                <div class="game-img">
-                    <img id="img" src="https://img.utdstc.com/icon/7aa/c75/7aac758ab5b7c127ea3bc8f514f1a3dc4a3dfc26989a576473c8fb694ae37b22:200" alt="game-image">
-                </div>
-                <div class="game-info">
-                    <h2 class="game-title">DOOM 1</h2>
-                    <p class="game-description">This is a brief description about DOOM 1.</p>
-                    <a href="games.html" class="play-button">Play Now</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="game-img">
-                    <img id="img" src="https://logos-world.net/wp-content/uploads/2023/03/Pac-Man-Logo.png" alt="game-image">
-                </div>
-                <div class="game-info">
-                    <h2 class="game-title">PAC-MAN</h2>
-                    <p class="game-description">This is a brief description of Game PAC-MAN</p>
-                    <a href="games.html" class="play-button">Play Now</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="game-img">
-                    <img id="img" src="https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png" alt="game-image">
-                </div>
-                <div class="game-info">
-                    <h2 class="game-title">Flappy Bird</h2>
-                    <p class="game-description">This is a brief description of Game Flappy Bird.</p>
-                    <a href="games.html" class="play-button">Play Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
 
+        <!-- SNAKE CARD -->
+        <div class="card">
+          <div class="game-img">
+            <!-- Placeholder image for Snake -->
+            <img
+              id="img"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6s80Qx_5j0yUqF0yS90o6142x20k2512m4w&s"
+              alt="Snake"
+            />
+          </div>
+          <div class="game-info">
+            <h2 class="game-title">SNAKE MATRIX</h2>
+            <p class="game-description">Eat. Grow. Don't crash. 🐍</p>
+            <a href="/games/snake" class="play-button">Play Now</a>
+          </div>
+        </div>
+
+        <!-- FLAPPY BIRD -->
+        <div class="card">
+          <div class="game-img">
+            <img
+              id="img"
+              src="https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png"
+              alt="Flappy Bird"
+            />
+          </div>
+          <div class="game-info">
+            <h2 class="game-title">FLAPPY BIRD</h2>
+            <p class="game-description">Tap to fly. Try not to rage. 🐦</p>
+            <a href="/games/flappy" class="play-button">Play Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
